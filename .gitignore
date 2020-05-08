@@ -473,3 +473,14 @@ fabric.properties
 *.sass.map
 *.scss.map
 
+/img/notUsing/
+/img/notUsing/1.jpg
+/img/notUsing/2P.jpg
+/img/notUsing/3.jpg
+/img/notUsing/7.jpg
+/img/notUsing/9.jpg
+/img/notUsing/background1.jpg
+/img/notUsing/background2.jpg
+/img/notUsing/background3.jpg
+/img/notUsing/background-blue.jpg
+/img/notUsing/background-blur.jpg

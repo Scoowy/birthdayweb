@@ -24,6 +24,20 @@ p {
   }
 }
 
+.adjust-width-100 > img {
+  width: 100%;
+}
+
+.adjust-width-200 > img {
+  width: 200%;
+}
+
+.img-footer {
+  top: auto !important;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
@@ -36,13 +50,19 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  #index-banner .section {
-    top: 5%;
+  #index-banner {
+    height: 100vh;
+
+    & .section {
+      top: 0;
+      bottom: 0;
+    }
   }
 }
 
 .icon-block {
   padding: 0 15px;
+
   & .material-icons {
     font-size: inherit;
   }
